@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.header-container {
+  height: 40px;
+  text-align: center;
+}
+
+.ships-container {
+  text-align: center;
+}
+
+.ships-container img {
+  width: 600px;
+  height: 300px;
+}
+
+.filter-input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-style: italic;
+    outline: none;
+    background-color: transparent;
+    color: black;
+}
+
+select {
+  padding: 8px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.select-filter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.spacex-logo {
+  width: 130px;
+  height: 35px;
+}
+
+.elon-musk {
+  width: 400px;
+}
+
+.launch-list img {
+ width: 200px;
+ height: 200px;
+}
+
+.launch-list {
+  background-image: url('https://www.ecopetit.cat/iconpics/f/17/177611/starry-background-wallpaper.jpg');
+  color:#fff;
+  font-weight: bold;
+}
+
+.about-container {
+  background-image: url('https://quotefancy.com/media/wallpaper/3840x2160/3898296-Elon-Musk-Quote-I-started-SpaceX-with-the-expectation-of-failure.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-style: italic;
+}
+
+.logout-btn {
+  border: 2px solid #f6f6f6;
+  background-color: transparent;
+  border-radius: 20px;
+  outline: none;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+
+}
+
+.nav-bar {
+  background-color: #0f1c26;
+  color: #fff;
+  height: 40px;
+  padding: 6px;
+}
+
+.log-form {
+  background-image: url('https://wallpaperaccess.com/full/17520.jpg');
+  width: 100%;
+  height:100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+
+.log-buttons {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #08080a;
+  color: #526891;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.log-buttons:hover {
+  color: #eee5d9;
+  background-color: #132b53;
+}
+
+.btn-div {
+  padding: 15px;
+  float: right;
+}
+
+.register-container {
+  text-align: center;
+  padding: 200px;
+}
+
+.register-container input {
+    background-color: transparent;
+    border: 2px solid #08080a;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    outline: none;
+    color:#526891;
+}
+
+.login-container {
+  text-align: center;
+  padding: 200px;
+}
+
+.login-container input {
+  background-color: transparent;
+  border: 2px solid #08080a;
+  border-radius: 10px;
+  padding: 5px;
+  font-style: italic;
+  outline: none;
+  color:#526891;
+}
+
+.ships-container {
+  background-image: url('https://cdn.pixabay.com/photo/2019/09/10/10/26/sea-4465800_1280.jpg');
+}
+
+.image-hover{
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #d8d7d7;
+  padding: 30px;
+  transition: opacity 0.5s;
+  overflow: hidden;
+
+}
+.image-hover:hover{
+  opacity: 1
+}
+
+.img-border {
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.history-border {
+  border:1px solid black;
+}
+
+.spacex-img {
+  background-image: url('https://base.imgix.net/files/base/ebm/industryweek/image/2019/05/industryweek_34096_spacex_logo_0.png?auto=format&fit=crop&h=432&w=768');
+  background-position: center;
+  color: #595555;
+  font-weight: 1000;
+}
+
+.font-italic {
+  font-style: italic;
+  border-left: 3px solid #1e232b;
+}
+
